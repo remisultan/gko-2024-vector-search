@@ -1,0 +1,67 @@
+= GKO 2024 - Vector API Search !
+
+== Introduction
+
+Welcome to the Vector Embeddings Hackathon! 🚀 In this event, we'll explore the fascinating realm of vector embeddings and demonstrate how they can revolutionize your API catalog search using natural language.
+
+*Challenge:* Write an API Catalog and search via natural sentence.
+
+*Data:*
+The APIs are the heart of our challenge, so get ready for some API magic! 📡
+Here is the link to the data you need to work with:
+
+- Api description:
+    * link:https://drive.google.com/uc?confirm=t&export=download&id=1ukI64_su6S_hCg7JfhZbpBW6c9bhUI5e[CSV format]
+    * link:https://drive.google.com/uc?confirm=t&export=download&id=1xI6OYRm9VUGFrFlWwN4G4fC8NquyFbm2[Pickle Format (pandas)]
+
+- Api endpoint descriptions:
+    * link:https://drive.google.com/uc?confirm=t&export=download&id=1HJ-W2rl5kPOuQO5wQgYwA4OR0391ts2-[CSV format]
+    * link:https://drive.google.com/uc?confirm=t&export=download&id=16y1pik1X6dUZmCwYhmk7zujqcOQWlg3y[Pickle Format (pandas)]
+
+But before digging in, check out the tutorials below !
+
+== Embedding, What is This?
+
+Unravel the mystery of embeddings!
+An embedding is a numerical representation of an object, often a word or document, in a vector space. It captures semantic relationships, like similar meanings, by placing similar objects closer in the space. Techniques like Word2Vec or GloVe generate these embeddings, enhancing language processing tasks by preserving contextual and semantic information.
+
+🕵️‍♂️ Learn about embeddings, understand how we transform text inputs into powerful vectors, and explore the tools that make it happen. link:https://colab.research.google.com/drive/1l448wdtA5Pye8nBIIHdCgT-iSl6toB4R?usp=drive_link[Link to google colab]
+
+== Visualization
+
+See the magic unfold! 🌌 Visualize vector embeddings to assess their quality and grasp the power of dimensionality reduction using manifold techniques/
+link:https://colab.research.google.com/drive/1gC2SHSNv_Vmt1Z45IlC9Y7yrgvLTpMWp#scrollTo=gLEVkTH8Musd[Link to google colab]
+
+== Prediction / Recommendation
+
+In vector embeddings, k-NN (k-Nearest Neighbors) and a-NN (Approximate Nearest Neighbors) are crucial for enhancing search.
+They identify the nearest neighbors to a vector, allowing precise matches (k-NN) or efficient approximations (a-NN).
+These algorithms empower applications by providing powerful search and recommendation capabilities, improving user experiences across various domains.
+
+🤖 Learn how to enhance your search results using these powerful algorithms.
+link:https://colab.research.google.com/drive/1Xj1BLpvHgYtrOQmb1YYz1JkljvSXZKDd?usp=sharing[Link to google colab]
+
+*You can also decide to use external tools:*
+
+- link:https://github.com/pgvector/pgvector[pgvector]
+- link:https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html[Elasticsearch]
+- link:https://opensearch.org/docs/latest/search-plugins/knn/index/[OpenSearch]
+
+This is not an exhaustive list!
+
+== Time to shine !
+
+Time to unleash your creativity! 🚀 Use the knowledge gained to create your own searching page, whether it's a groundbreaking API, a full-fledged app or even integrate it in the Gravitee.io developer portal.
+The possibilities are endless!
+
+You can find at the root of your project how to spin up a REST API application.
+
+== Bonus
+
+🌈 Explore Multimodal Models:
+
+- Search via Images, transform images into text with multimodal models:
+    * link:https://www.sbert.net/examples/applications/image-search/README.html[S-Bert OpenAI CLIP]
+    * link:https://huggingface.co/nlpconnect/vit-gpt2-image-captioning[GPT2 Image captioning]
+
+Get ready for an immersive and educational journey! Happy hacking! 👩‍💻👨‍💻
