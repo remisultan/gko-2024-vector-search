@@ -15,8 +15,8 @@ Here is the link to the data you need to work with:
     * link:https://drive.google.com/uc?confirm=t&export=download&id=1xI6OYRm9VUGFrFlWwN4G4fC8NquyFbm2[Pickle Format (pandas)]
 
 - Api endpoint descriptions:
-    * link:https://drive.google.com/uc?confirm=t&export=download&id=1HJ-W2rl5kPOuQO5wQgYwA4OR0391ts2-[CSV format]
-    * link:https://drive.google.com/uc?confirm=t&export=download&id=16y1pik1X6dUZmCwYhmk7zujqcOQWlg3y[Pickle Format (pandas)]
+    * link:https://drive.google.com/uc?confirm=t&export=download&id=1oxNmx7hfzR3FLOERIoEMBbZ-TuZYBEtr[CSV format]
+    * link:https://drive.google.com/uc?confirm=t&export=download&id=1nQVFcRpYBLB-kbeeMVU4v4J_DqZTSFFn[Pickle Format (pandas)]
 
 But before digging in, check out the tutorials below !
 
